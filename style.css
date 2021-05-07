@@ -1,10 +1,11 @@
 body {
   position: relative;
+  background-color: #ecf0f1;
 }
 html {
   scroll-behavior: smooth;
 }
-#section1 {
+#about {
   padding-top: 50px;
   height: 500px;
   color: #222222;
@@ -12,13 +13,13 @@ html {
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
 }
-#section2 {
+#projects {
   padding-top: 50px;
   height: auto;
   color: #fff;
   background-color: #ecf0f1;
 }
-#section3 {
+#contact {
   padding-top: 20px;
   height: auto;
   color: #fff;
@@ -149,4 +150,32 @@ i {
 .link-style:hover {
   color: white;
   transition: 0.8s;
+}
+
+#stack {
+  position: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 75px;
+}
+
+.stack-item {
+  padding: 10px;
+}
+.tech-icon {
+  height: 70px;
+  width: 70px;
+}
+
+@media (max-width: 450px) {
+  .stack-item {
+    padding: 3px;
+  }
+  .tech-icon {
+    height: 60px;
+    width: 60px;
+  }
 }
